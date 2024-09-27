@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>   
+        <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f9; /* Color de fondo pastel */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #fa61ff; /* Color pastel */
+    margin-bottom: 10px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco para la sección de perfil */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.profile img {
+    border-radius: 50%; /* Imagen redonda */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.projects {
+    width: 100%;
+    max-width: 800px; /* Limita el ancho de la sección de proyectos */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+.project {
+    background-color: #fff3f4; /* Color de fondo pastel para cada proyecto */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.project:hover {
+    transform: scale(1.05); /* Efecto de hover para dinamismo */
+}
+.project a {
+    text-decoration: none;
+    color: #fa61ff;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Portafolio de Proyectos</h1>
+    </header>
+
+    <section class="profile">
+        <img src="foto.jpeg" alt="Mi Foto"> <!-- Cambia "tu-foto.jpg" por la ruta de tu foto -->
+        <h2>Hola, soy Fraimirys Rosario</h2>
+        <p>Desarrolladora web apasionada por el diseño y la creatividad. Me encanta crear experiencias únicas a través de la web.</p>
+    </section>
+
+    <div class="projects">
+        <div class="project">
+            <h2>Formulario con JavaScript</h2>
+            <p>Este proyecto es un formulario web interactivo diseñado para capturar información básica de los usuarios, como su nombre, correo electrónico y sexo, además de incluir una aceptación de términos y condiciones.</p>
+            <a href="https://frayhtml.github.io/Formulario-con-Js/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Layoud Basica</h2>
+            <p>Este proyecto consiste en una página web básica diseñada para presentar información de manera organizada y visualmente atractiva. Utiliza HTML, CSS y una estructura de diseño simple para lograrlo.</p>
+            <a href="https://frayhtml.github.io/Layoud-Basica/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Layoud con Flexbox</h2>
+            <p>Este proyecto consiste en un diseño web que utiliza HTML y CSS, enfocado en la creación de un layout responsivo mediante Flexbox. La estructura básica del documento HTML incluye un encabezado, una sección principal para el contenido, un área lateral para anuncios y un pie de página.</p>
+            <a href="https://frayhtml.github.io/Layoud-con-Flexbox/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Plantilla de Portafolio</h2>
+            <p>El proyecto consiste en un portafolio web personal. Utilizando HTML y CSS, la página incluye secciones dedicadas a la presentación personal, un portafolio de trabajos previos y un formulario de contacto. El diseño es moderno y responsive, asegurando una experiencia visual atractiva y funcional. Además, incorpora enlaces a redes sociales para facilitar la conexión con potenciales clientes o empleadores.</p>
+            <a href="https://frayhtml.github.io/Plantilla-de-portafolio/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Plantilla para Cafe</h2>
+            <p>Este proyecto es un sitio web diseñado para un café, presentación visual atractiva y funcional. La página principal incluye secciones para Acerca de, Menú, Galería, y Ubicación, ofreciendo información relevante sobre el establecimiento. El diseño es responsivo y utiliza una fuente moderna para asegurar una experiencia de usuario fluida en dispositivos móviles y de escritorio.</p>
+            <a href="https://frayhtml.github.io/Plantilla-para-Cafe/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Reproductor con JavaScript</h2>
+            <p>Este proyecto es un reproductor de video simple diseñado con HTML, CSS y JavaScript. Este proyecto crea una experiencia de usuario amigable para visualizar videos, acompañada de un contenido textual que proporciona contexto y detalles adicionales sobre el video presentado.</p>
+            <a href="https://frayhtml.github.io/Reproductor-con-JS/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+        <div class="project">
+            <h2>Sumadora con JavaScript</h2>
+            <p>Este proyecto es una calculadora simple diseñada para realizar sumas básicas. Está compuesta por tres archivos: HTML, CSS y JavaScript. Este proyecto representa una calculadora funcional que permite a los usuarios realizar sumas de manera intuitiva, con un diseño amigable y una interacción fluida.</p>
+            <a href="https://frayhtml.github.io/Sumadora-con-JS/" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+    </div>
+
+</body>
+</html>
